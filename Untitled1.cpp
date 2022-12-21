@@ -26,7 +26,9 @@ int main(){
     case 'o':
     sonuc = (sayi1 + sayi2)/2;
       break;
-   
+    case 'k':
+    sonuc = (sayi1*sayi1) - (sayi2*sayi2);
+       break;
     default:
     sonuc = 0;
       break;
